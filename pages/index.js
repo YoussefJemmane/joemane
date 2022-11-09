@@ -20,8 +20,8 @@ export default function Home() {
   
           src="/Ted_Bundy_headshot.jpg"
           alt="Picture of Me"
-          width={500}
-          height={500}
+          
+         
         
         />
         <p className={styles.description}>
