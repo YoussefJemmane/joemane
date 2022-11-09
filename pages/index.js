@@ -29,12 +29,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a  className={styles.card}>
             <h2>CRUD &rarr;</h2>
             <p>I can make a CRUD website using laravel or PHP and MySQL or React and MongoDB</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a  className={styles.card}>
             <h2>Hobbies &rarr;</h2>
             <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda <code>Zelda it's the princess not the main character</code> </p>
           </a>
