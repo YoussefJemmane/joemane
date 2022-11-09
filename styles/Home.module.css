@@ -127,9 +127,3 @@
     filter: invert(1);
   }
 }
-@media (max-width: 412px) {
-  .image {
-    width: 60;
-    width: 60;
-  }
-}
