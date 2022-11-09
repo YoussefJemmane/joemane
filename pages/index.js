@@ -18,11 +18,12 @@ export default function Home() {
           My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
         </h1>
         <Image 
-           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '30px'}}
+          style={{borderRadius: '25px', overflow: 'hidden', marginTop: '30px'}}
+          className={styles.image}
           src="/1661041138957.jfif"
           alt="Picture of Me"
-          width="200"
-          height="200"
+          width="500"
+          height="500"
           priority
         />
         <p className={styles.description}>
