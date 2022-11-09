@@ -22,8 +22,8 @@ export default function Home() {
            style={{borderRadius: '25px', overflow: 'hidden'}}
           src="/1661041138957.jfif"
           alt="Picture of Me"
-          width="50"
-          height="50"
+          width="200"
+          height="200"
           priority
          
         
