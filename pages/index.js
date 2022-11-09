@@ -19,11 +19,10 @@ export default function Home() {
         </h1>
         <Image 
           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '30px'}}
-          className={styles.image}
           src="/1661041138957.jfif"
           alt="Picture of Me"
-          width="500"
-          height="500"
+          width="400"
+          height="400"
           priority
         />
         <p className={styles.description}>
