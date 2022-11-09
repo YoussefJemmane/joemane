@@ -23,7 +23,7 @@ export default function Home() {
           src="/1661041138957.jfif"
           alt="Picture of Me"
           width="500"
-          height="600"
+          height="500"
          
         
         />
