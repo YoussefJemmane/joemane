@@ -16,6 +16,7 @@ export default function Home() {
         <h1 className={styles.title}>
           My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
         </h1>
+        <br/>
         <Image 
   
           src="/IMG_20211010_142349.jpg"
