@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        I study Full Stack development at OFPPT in Morocco{' '}
+        I study Full Stack development at OFPPT in Morocco
         </p>
 
         <div className={styles.grid}>
@@ -54,7 +54,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          I don't have social media accounts{' '}
+          I don't have social media accounts
       </footer>
     </div>
   )
