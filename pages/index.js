@@ -43,7 +43,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          My Number is : <code className={styles.code}>0675396915</code>
+          My Number is : &npsb;<code className={styles.code}>0675396915</code>
       </footer>
     </div>
   )
