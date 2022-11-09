@@ -20,7 +20,7 @@ export default function Home() {
         <br/>
         <Image 
           
-          src="/IMG_20211010_142349.jpg"
+          src="/1661041138957.jfif"
           alt="Picture of Me"
           width="500"
           height="600"
