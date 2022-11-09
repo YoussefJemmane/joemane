@@ -17,16 +17,13 @@ export default function Home() {
         <h1 className={styles.title}>
           My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
         </h1>
-        <br/>
         <Image 
-           style={{borderRadius: '25px', overflow: 'hidden'}}
+           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '2px'}}
           src="/1661041138957.jfif"
           alt="Picture of Me"
           width="200"
           height="200"
           priority
-         
-        
         />
         <p className={styles.description}>
         I study Full Stack development at OFPPT in Morocco
