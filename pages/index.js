@@ -4,9 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const myLoader = ({ src, width, quality }) => {
-    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-  }
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -21,7 +19,7 @@ export default function Home() {
         </h1>
         <br/>
         <Image 
-          loader={myLoader}
+          
           src="/IMG_20211010_142349.jpg"
           alt="Picture of Me"
           width="500"
