@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
         <br/>
         <Image 
-           style={{borderRadius: '5px', overflow: 'hidden'}}
+           style={{borderRadius: '25px', overflow: 'hidden'}}
           src="/1661041138957.jfif"
           alt="Picture of Me"
           width="500"
