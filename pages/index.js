@@ -30,13 +30,13 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>CRUD &rarr;</h2>
+            <p>I can make a CRUD website using laravel or PHP and MySQL or React and MongoDB</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Hobbies &rarr;</h2>
+            <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda <code>Zelda it's the princess not the main character</code> </p>
           </a>
 
           <a
