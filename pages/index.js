@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         <Image 
   
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQFvkT6KxhC9ew/profile-displayphoto-shrink_800_800/0/1661041138957?e=1673481600&v=beta&t=BLEUeK3WE6MSSgoQZayGrxa8Xg2IxgIYuiC-LUY9FCQ"
+          src="/Ted_Bundy_headshot.jpg"
           alt="Picture of Me"
           width={500}
           height={500}
