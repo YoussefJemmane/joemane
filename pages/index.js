@@ -21,7 +21,7 @@ export default function Home() {
           src="/IMG_20211010_142349.jpg"
           alt="Picture of Me"
           width="500"
-          height="500"
+          height="600"
          
         
         />
