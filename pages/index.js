@@ -18,7 +18,7 @@ export default function Home() {
           My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
         </h1>
         <Image 
-           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '2px'}}
+           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '9px'}}
           src="/1661041138957.jfif"
           alt="Picture of Me"
           width="200"
