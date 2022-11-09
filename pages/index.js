@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         <Image 
   
-          src="/Ted_Bundy_headshot.jpg"
+          src="/IMG_20211010_142349.jpg"
           alt="Picture of Me"
           
          
