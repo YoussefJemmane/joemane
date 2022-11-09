@@ -14,9 +14,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My name is<a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
+          My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
         </h1>
-
+        <Image 
+  
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQFvkT6KxhC9ew/profile-displayphoto-shrink_800_800/0/1661041138957?e=1673481600&v=beta&t=BLEUeK3WE6MSSgoQZayGrxa8Xg2IxgIYuiC-LUY9FCQ"
+          alt="Picture of Me"
+          width={500}
+          height={500}
+        
+        />
         <p className={styles.description}>
         I study Full Stack development at OFPPT in Morocco
         </p>
