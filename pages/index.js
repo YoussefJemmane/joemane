@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a  className={styles.card}>
-            <h2>CRUD &rarr;</h2>
+            <h2>Skills &rarr;</h2>
             <p>I can make a CRUD website using laravel or PHP and MySQL or React and MongoDB</p>
           </a>
 
