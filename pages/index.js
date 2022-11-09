@@ -36,7 +36,7 @@ export default function Home() {
 
           <a  className={styles.card}>
             <h2>Hobbies &rarr;</h2>
-            <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda <code>Zelda it's the princess not the main character</code> </p>
+            <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda <code className={styles.code}>Zelda it's the princess not the main character</code> </p>
           </a>
 
           <a
