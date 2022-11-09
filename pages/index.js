@@ -24,6 +24,7 @@ export default function Home() {
           alt="Picture of Me"
           width="500"
           height="500"
+          priority
          
         
         />
