@@ -21,8 +21,8 @@ export default function Home() {
           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '30px'}}
           src="/1661041138957.jfif"
           alt="Picture of Me"
-          width="400"
-          height="400"
+          width="350"
+          height="350"
           priority
         />
         <p className={styles.description}>
