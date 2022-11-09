@@ -43,7 +43,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          I don't have social media accounts
+          My Number is : <code className={styles.code}>0675396915</code>
       </footer>
     </div>
   )
