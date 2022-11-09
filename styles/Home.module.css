@@ -30,14 +30,10 @@
 
 .title a {
   color: #0070f3;
-  text-decoration: dashed ;
+  text-decoration: wavy underline ;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
+
 
 .title {
   margin: 0;
