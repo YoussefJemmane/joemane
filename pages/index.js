@@ -28,7 +28,9 @@ export default function Home() {
         <p className={styles.description}>
         I study Full Stack development at OFPPT in Morocco
         </p>
-
+        <div>
+          <a href="./CV.pdf" download>This is My CV</a>
+        </div>
         <div className={styles.grid}>
           <a  className={styles.card}>
             <h2>Skills &rarr;</h2>
@@ -43,7 +45,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-          My Number is : &nbsp;<code className={styles.code}>0675396915</code>
+      <h2>My Number is : &nbsp;<code className={styles.code}>0675396915</code></h2>
       </footer>
     </div>
   )
