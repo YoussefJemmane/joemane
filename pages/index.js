@@ -4,7 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  
+  const data = {
+    name: 'Youssef Jemmane'
+  }
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +17,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">Youssef Jemmane</a>
+          My name is <a href="https://www.linkedin.com/in/jemmane-youssef-685875212/">{data.name}</a>
         </h1>
         <Image 
           style={{borderRadius: '25px', overflow: 'hidden', marginTop: '30px'}}
