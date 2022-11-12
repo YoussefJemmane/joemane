@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-/* eslint react/no-unescaped-entities */
+
 import Head from 'next/head';
 import Image from 'next/image';
 import { Client, HydrationProvider } from "react-hydration-provider";
