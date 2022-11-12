@@ -16,7 +16,8 @@
     "next": "13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hydration-provider": "^1.0.1"
+    "react-hydration-provider": "^1.0.1",
+    "react-lazy-load-image-component": "^1.5.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
