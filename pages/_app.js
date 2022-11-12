@@ -4,9 +4,9 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }) {
 
   return (
-    <><Component {...pageProps} />
+    <div data-theme='synthwave'><Component {...pageProps} />
       <Analytics />
-    </>
+    </div>
   )
 }
 
