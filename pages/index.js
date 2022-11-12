@@ -38,7 +38,7 @@ export default function Home() {
               I study Full Stack development at OFPPT in Morocco
             </p>
             <div>
-              <a href="./CV.pdf" className={styles.button} download>This is My CV</a>
+              <a href="./CV.pdf" className='btn btn-primary' download>This is My CV</a>
             </div>
             <div className={styles.grid}>
               <a className={styles.card}>
