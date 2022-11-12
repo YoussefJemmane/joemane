@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 
-import Head from 'next/head';
 import { Client, HydrationProvider } from "react-hydration-provider";
+import Head from 'next/head';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
 
             <div className='flex justify-center' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
-                <figure ><img src="/p.jfif" style={{ height:'100%',width:'100%' }}/></figure>
+                <figure ><Image src="/p.jfif" width={1000} height={100}  loading="lazy"/></figure>
                 <div className="card-body ">
                   <h2 className="card-title">My name is {data.name}</h2>
                   <p>I'm studying Full Stack development at OFPPT in Morocco</p>
