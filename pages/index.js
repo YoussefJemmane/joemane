@@ -8,9 +8,6 @@ import { Client, HydrationProvider } from "react-hydration-provider";
 export default function Home() {
   const data = {
     name: 'Youssef Jemmane',
-    projects: {
-      p1: ''
-    },
   }
   return (
     <HydrationProvider>
