@@ -23,7 +23,7 @@ export default function Home() {
 
             <div className='flex justify-center' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
-                <figure><img src="/1661041138957.jfif" /></figure>
+                <figure><img src="/p.jfif" /></figure>
                 <div className="card-body ">
                   <h2 className="card-title">My name is {data.name}</h2>
                   <p>I'm studying Full Stack development at OFPPT in Morocco</p>
