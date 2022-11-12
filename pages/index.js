@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 
-import { Client, HydrationProvider } from "react-hydration-provider";
 import Head from 'next/head';
+import { Client, HydrationProvider } from "react-hydration-provider";
 
-import {LazyLoadImage} from 'react-lazy-load-image-component'
+
 
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
 
             <div className='flex justify-center' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
-                <figure ><LazyLoadImage src="/p.jfif" width={1000} height={100}  effects="blur"/></figure>
+                <figure ><img src="/p.jfif" width={1000} height={100} effects="blur" /></figure>
                 <div className="card-body ">
                   <h2 className="card-title">My name is {data.name}</h2>
                   <p>I'm studying Full Stack development at OFPPT in Morocco</p>
@@ -51,13 +51,29 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
-                  <div className="card-body">
+                  <div className="">
                     <h2 className="card-title">Certifications &rarr;</h2>
                     <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf">IT Basics</a></p>
                     <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf">Fundamentals</a></p>
                   </div>
                 </div>
               </div>
+              <div>
+                <div className="card-body">
+                  <h2 className="card-title">My porjects &rarr;</h2>
+                  <div class="carousel w-full rounded-lg">
+                    <div id="slide1" class="carousel-item relative w-full ">
+                      <a href="https://github.com/YoussefJemmane/Cinema_Management"><img src="./Screenshot 2022-11-12 192726.jpg" class="w-full" /></a>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
             </section>
 
 

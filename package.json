@@ -10,11 +10,13 @@
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.4",
+    "blurhash": "^2.0.4",
     "daisyui": "^2.39.1",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",
     "react": "^18.2.0",
+    "react-blurhash": "^0.2.0",
     "react-dom": "^18.2.0",
     "react-hydration-provider": "^1.0.1",
     "react-lazy-load-image-component": "^1.5.6"
