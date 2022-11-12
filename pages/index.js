@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint react/no-unescaped-entities */
 import Head from 'next/head'
 import Image from 'next/image'
@@ -5,7 +6,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   const data = {
-    name: 'Youssef Jemmane'
+    name: 'Youssef Jemmane',
+    projects : {
+      p1:''
+    },
   }
   return (
     <div className={styles.container}>
@@ -36,7 +40,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a  className={styles.card}>
             <h2>Skills &rarr;</h2>
-            <p>I can make a CRUD website using laravel or PHP and MySQL or React and MongoDB</p>
+            <p>I'm able to create a CRUD website using PHP and MySQL or Laravel, and I have the knowledge to create a UI using React and Redux</p>
           </a>
 
           <a  className={styles.card}>
@@ -47,7 +51,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-      <h2>My Number is : &nbsp;<code className={styles.code}>0675396915</code></h2>
+      <h2><Image src='/telephone.png' width={30} height={30}/>+212675396915</h2>
+      
       </footer>
     </div>
   )
