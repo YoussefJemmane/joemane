@@ -47,9 +47,10 @@ export default function Home() {
             <h2>Hobbies &rarr;</h2>
             <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda</p>
           </a>
-          <a className={styles.card}href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf">
+          <a className={styles.card}>
             <h2>Certifications &rarr;</h2>
-            <p>IT Basics</p>
+            <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf">IT Basics</a></p>
+            <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf">Fundamentals</a></p>
           </a>
         </div>
       </main>
