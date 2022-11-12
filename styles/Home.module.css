@@ -121,7 +121,7 @@
     border-color: rgb(124, 123, 123);
   }
   .code {
-    background: rgb(153, 152, 152);
+    background: #111;
   }
   .logo img {
     filter: invert(1);
