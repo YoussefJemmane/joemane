@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
             <section className='container px-6 py-4 mx-auto'>
-              <div className='grid gap-6 mb-8 md:grid-cols-2 lg:grid-cols-3'>
+              <div className='grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-2'>
                 <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Skills &rarr;</h2>
@@ -56,21 +56,56 @@ export default function Home() {
 
                   </div>
                 </div>
-                <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
+                <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Hobbies &rarr;</h2>
                     <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda</p>
                   </div>
                 </div>
-                <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
+              </div>
+              <div className='grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-1'>
+                <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Certifications &rarr;</h2>
-                    <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf">IT Basics</a></p>
-                    <p><a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf">Fundamentals</a></p>
+                    <div>
+                      <div className='grid gap-6 mb-8 md:grid-cols-2 lg:grid-cols-4'>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">IT Basics &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">Fundamentals &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">HTML &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1632138539959.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">
+                              SQL &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1654463240612.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">
+                              Python &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1659707694021.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                        <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='synthwave'>
+                          <div className="card-body">
+                            <h2 className="card-title">Laravel &rarr; <a href="https://storage.googleapis.com/programminghub/certificate%2F1664479336955.pdf" className='btn btn-primary'>Click</a></h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-
             </section>
 
 
