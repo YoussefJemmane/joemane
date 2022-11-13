@@ -58,7 +58,6 @@ export default function Home() {
                 <div className="card-body">
                   <h2 className="card-title">Skills &rarr;</h2>
                   <p>Je suis capable de créer un site Web CRUD en utilisant PHP et MySQL ou Laravel, et j'ai les connaissances nécessaires pour créer une interface utilisateur en utilisant React et Redux</p>
-
                 </div>
               </div>
               <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
@@ -68,7 +67,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
             <div className="flex  items-center  rounded-lg shadow-sm  " data-theme='light'>
               <div className="card-body">
                 <h2 className="card-title">Certifications &rarr;</h2>

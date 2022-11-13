@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex  items-center  rounded-lg shadow-sm  " data-theme='light'>
+              <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
                 <div className="card-body">
                   <h2 className="card-title">Certifications &rarr;</h2>
                   <div>
@@ -110,6 +110,27 @@ export default function Home() {
                         <div className="card-body">
                           <h2 className="card-title">Laravel &rarr; </h2>
                           <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1664479336955.pdf" className='btn btn-primary'>Click</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section className='container px-6 py-4 mx-auto'>
+              
+
+              <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
+                
+                <div className="card-body">
+                  <h2 className="card-title">Projects &rarr;</h2>
+                  <div>
+                    <div className='grid gap-6 mb-8 max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3'>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                           <h2 className="card-title">Cinema Management &rarr; </h2>
+                           <div><a href="https://github.com/YoussefJemmane/Cinema_Management.git" className='btn btn-secondary'>Click</a></div>
                         </div>
                       </div>
                     </div>
