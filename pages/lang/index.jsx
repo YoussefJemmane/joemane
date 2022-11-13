@@ -4,7 +4,7 @@
 
 import Head from 'next/head';
 import { Client, HydrationProvider } from "react-hydration-provider";
-
+import Link from 'next/link';
 
 
 
@@ -25,7 +25,15 @@ export default function Home() {
           </Head>
 
           <main className='m-5'>
-            
+          <div className='flex justify-end' >
+              <div className="dropdown dropdown-left dropdown-hover" >
+                <label tabIndex={0} className="btn m-1 btn-primary" data-theme='light'>Hover</label>
+                <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" data-theme='light'>
+                  <li><Link href='/'>English</Link></li>
+                  <li><Link href='/lang'>French</Link></li>
+                </ul>
+              </div>
+            </div>
             <div className='flex justify-center' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
                 <figure ><img src="/p.jfif" width={1000} height={100} effects="blur" /></figure>
