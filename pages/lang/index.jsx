@@ -27,10 +27,10 @@ export default function Home() {
           <main className='m-5'>
           <div className='flex justify-end' >
               <div className="dropdown dropdown-left dropdown-hover" >
-                <label tabIndex={0} className="btn m-1 btn-primary" data-theme='light'>Hover</label>
+                <label tabIndex={0} className="btn m-1 btn-primary" data-theme='light'>Translate</label>
                 <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" data-theme='light'>
-                  <li><Link href='/'>English</Link></li>
-                  <li><Link href='/lang'>French</Link></li>
+                  <li><Link href='/'>Anglais</Link></li>
+                  <li><Link href='/lang'>Français</Link></li>
                 </ul>
               </div>
             </div>
