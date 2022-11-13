@@ -56,15 +56,15 @@ export default function Home() {
 
                   </div>
                 </div>
-                <div className="flex items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
+                <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Hobbies &rarr;</h2>
                     <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda</p>
                   </div>
                 </div>
               </div>
-              <div className='grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-1'>
-                <div className="flex items-center  rounded-lg shadow-sm  " data-theme='light'>
+              
+                <div className="flex  items-center  rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Certifications &rarr;</h2>
                     <div>
@@ -105,7 +105,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              
             </section>
 
 
