@@ -26,16 +26,21 @@ export default function Home() {
           </Head>
 
           <main className='m-5'>
-            <div className='flex justify-end' >
-              <div className="dropdown dropdown-left dropdown-hover" >
-                <label tabIndex={0} className="btn m-1 btn-primary" data-theme='light'>Translate</label>
-                <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" data-theme='light'>
-                  <li><Link href='/'>English</Link></li>
-                  <li><Link href='/lang'>French</Link></li>
-                </ul>
+            <div class="navbar bg-base-100 rounded-lg" data-theme="light">
+              <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">Youssef Jemmane</a>
+              </div>
+              <div class="flex-none">
+                <div className="dropdown dropdown-left dropdown-hover" >
+                  <label tabIndex={0} className="btn m-1 btn-primary" data-theme='light'>Translate</label>
+                  <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52" data-theme='light'>
+                    <li><Link href='/'>English</Link></li>
+                    <li><Link href='/lang'>French</Link></li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div className='flex justify-center' >
+            <div className='flex justify-center m-5' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
                 <figure ><img src="/p.jfif" width={1000} height={100} effects="blur" /></figure>
                 <div className="card-body ">
@@ -63,55 +68,55 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              
-                <div className="flex  items-center  rounded-lg shadow-sm  " data-theme='light'>
-                  <div className="card-body">
-                    <h2 className="card-title">Certifications &rarr;</h2>
-                    <div>
-                      <div className='grid gap-6 mb-8 max-sm:grid-cols-1 lg:grid-cols-3'>
-                        <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">IT Basics &rarr; </h2>
-                            <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+
+              <div className="flex  items-center  rounded-lg shadow-sm  " data-theme='light'>
+                <div className="card-body">
+                  <h2 className="card-title">Certifications &rarr;</h2>
+                  <div>
+                    <div className='grid gap-6 mb-8 max-sm:grid-cols-1 lg:grid-cols-3'>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">IT Basics &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1630178096840.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
-                        <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">Fundamentals &rarr; </h2>
-                            <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">Fundamentals &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1629573666888.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
-                        <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">HTML &rarr; </h2>
-                            <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1632138539959.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">HTML &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1632138539959.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
-                        <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">
-                              SQL &rarr; </h2>
-                              <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1654463240612.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">
+                            SQL &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1654463240612.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
-                        <div className="flex items-center  rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">
-                              Python &rarr; </h2>
-                              <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1659707694021.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+                      </div>
+                      <div className="flex items-center  rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">
+                            Python &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1659707694021.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
-                        <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
-                          <div className="card-body">
-                            <h2 className="card-title">Laravel &rarr; </h2>
-                            <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1664479336955.pdf" className='btn btn-primary'>Click</a></div>
-                          </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">Laravel &rarr; </h2>
+                          <div><a href="https://storage.googleapis.com/programminghub/certificate%2F1664479336955.pdf" className='btn btn-primary'>Click</a></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              
+              </div>
+
             </section>
 
 
