@@ -133,6 +133,12 @@ export default function Home() {
                            <div><a href="https://github.com/YoussefJemmane/Cinema_Management.git" className='btn btn-secondary'>Click</a></div>
                         </div>
                       </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                           <h2 className="card-title">Dice &rarr; </h2>
+                           <div><a href="https://github.com/YoussefJemmane/Dice.git" className='btn btn-secondary'>Click</a></div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
