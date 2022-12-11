@@ -47,7 +47,7 @@ export default function Home() {
                   <h2 className="card-title">My name is {data.name}</h2>
                   <p>I'm studying Full Stack development at OFPPT in Morocco</p>
                   <div className="card-actions justify-center">
-                    <a href="./CV.pdf" className='btn btn-primary' download>This is My CV</a>
+                    <a href="./YJ.pdf" className='btn btn-primary' download>This is My CV</a>
                   </div>
                 </div>
               </div>
@@ -119,24 +119,47 @@ export default function Home() {
 
             </section>
             <section className='container px-6 py-4 mx-auto'>
-              
+
 
               <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
-                
+
                 <div className="card-body">
                   <h2 className="card-title">Projects &rarr;</h2>
                   <div>
                     <div className='grid gap-6 mb-8 max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3'>
                       <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
                         <div className="card-body">
-                           <h2 className="card-title">Cinema Management &rarr; </h2>
-                           <div><a href="https://github.com/YoussefJemmane/Cinema_Management.git" className='btn btn-secondary'>Click</a></div>
+                          <h2 className="card-title">Cinema Management &rarr; Laravel</h2>
+                          <div>
+                            <a href="https://github.com/YoussefJemmane/Cinema_Management.git" className='btn btn-secondary'>GitHub</a>
+                          </div>
                         </div>
                       </div>
                       <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
                         <div className="card-body">
-                           <h2 className="card-title">Dice &rarr; </h2>
-                           <div><a href="https://github.com/YoussefJemmane/Dice.git" className='btn btn-secondary'>Click</a></div>
+                          <h2 className="card-title">Dice &rarr; React, Redux Toolkit</h2>
+                          <div>
+                            <a href="https://github.com/YoussefJemmane/Dice.git" className='btn btn-secondary mr-5 mb-5'>GitHub</a>
+                            <a href="https://dice-joe.vercel.app" className='btn btn-success'>Demo</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">Newspaper &rarr; React, Redux Toolkit</h2>
+                          <div>
+                            <a href="https://github.com/YoussefJemmane/articles.git" className='btn btn-secondary mr-5 mb-5'>GitHub</a>
+                            <a href="https://article-jemmane.vercel.app" className='btn btn-success'>Demo</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
+                        <div className="card-body">
+                          <h2 className="card-title">Show Countries &rarr; React, API</h2>
+                          <div>
+                            <a href="https://github.com/YoussefJemmane/RESTCountries.git" className='btn btn-secondary mr-5 mb-5'>GitHub</a>
+                            <a href="https://joe-country.vercel.app" className='btn btn-success'>Demo</a>
+                          </div>
                         </div>
                       </div>
                     </div>
