@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <div className='flex justify-center m-5' >
               <div className="card w-96 bg-base-100 shadow-xl" data-theme='light'>
-                <figure ><img src="/p.jfif" width={1000} height={100} effects="blur" /></figure>
+                <figure className='m-5'><img className='rounded-xl' src="/p.jfif" width={1000} height={100} effects="blur" /></figure>
                 <div className="card-body ">
                   <h2 className="card-title">My name is {data.name}</h2>
                   <p>I'm studying Full Stack development at OFPPT in Morocco</p>
@@ -53,18 +53,30 @@ export default function Home() {
               </div>
             </div>
             <section className='container px-6 py-4 mx-auto'>
+              <div className='grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-1'>
+                <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
+                  <div className="card-body">
+                    <h2 className="card-title">Profile &rarr;</h2>
+                    <p>
+                      As a full stack student at OFPPT, I have developed a strong knowledge of front-end and back-end technologies, including <strong>React</strong>, <strong>Redux</strong>, <strong>the Redux Toolkit</strong>, <strong>API development</strong>, <strong>Laravel</strong>, <strong>PHP</strong>, and <strong>MySQL</strong>. I am skilled in building modern, dynamic web applications that provide users with a seamless and intuitive experience.
+                      I am passionate about using my skills and knowledge to create innovative solutions that solve real-world problems, and I am always looking for new challenges and opportunities to learn and grow as a developer. In the future, I hope to continue learning and advancing my skills, and to eventually use my expertise to make a positive impact on the world through technology.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
               <div className='grid gap-6 mb-8 md:grid-cols-1 lg:grid-cols-2'>
                 <div className="flex items-center p-4  rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Skills &rarr;</h2>
-                    <p>I'm able to create a CRUD website using PHP and MySQL or Laravel, and I have the knowledge to create a UI using React and Redux</p>
+                    <p>I am skilled in creating CRUD websites using PHP, MySQL, Laravel, React, and Redux. I am able to combine my knowledge of front-end and back-end technologies to create well-rounded and user-friendly web applications. I am passionate about using technology to solve real-world problems, and I am always looking for new opportunities to learn and grow as a developer.</p>
 
                   </div>
                 </div>
                 <div className="flex  items-center p-4 rounded-lg shadow-sm  " data-theme='light'>
                   <div className="card-body">
                     <h2 className="card-title">Hobbies &rarr;</h2>
-                    <p>I love solving ciphers and playing BasketBall, I adore playing AAA and RPG Games My favourite game is The legends of Zelda</p>
+                    <p>I am passionate about solving ciphers, playing basketball, and playing video games. These interests have helped me to develop a wide range of valuable skills, including problem-solving, coordination, teamwork, strategic thinking, and critical analysis. My favorite game, The Legend of Zelda, has particularly inspired me to develop my creativity and problem-solving abilities.</p>
                   </div>
                 </div>
               </div>
