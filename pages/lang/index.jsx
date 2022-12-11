@@ -47,7 +47,7 @@ export default function Home() {
                 <h2 className="card-title">Je m'appelle {data.name}</h2>
                 <p>J'étudie le développement Full Stack à l'OFPPT au Maroc</p>
                 <div className="card-actions justify-center">
-                  <a href="./CV.pdf" className='btn btn-primary' download>Mon CV</a>
+                  <a href="./YJ.pdf" className='btn btn-primary' download>Mon CV</a>
                 </div>
               </div>
             </div>
