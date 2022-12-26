@@ -149,7 +149,7 @@ export default function Home() {
                       </div>
                       <div className="flex items-center rounded-lg shadow-sm  " data-theme='synthwave'>
                         <div className="card-body">
-                          <h2 className="card-title">Dice &rarr; React, Redux Toolkit</h2>
+                          <h2 className="card-title">Dice &rarr; React, Redux</h2>
                           <div>
                             <a href="https://github.com/YoussefJemmane/Dice.git" className='btn btn-secondary mr-5 mb-5'>GitHub</a>
                             <a href="https://dice-joe.vercel.app" className='btn btn-success'>Demo</a>
