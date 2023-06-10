@@ -23,10 +23,10 @@ export default function Home() {
       })
   }, [])
   if (isLoading) return <p>Loading...</p>
-  if (!repo) return <p>No profile data</p>
   const data = {
     name: 'Youssef Jemmane',
   }
+  if (!repo) return <p>No profile {data}</p>
   return (
     <HydrationProvider>
       <Client>
