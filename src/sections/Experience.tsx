@@ -18,7 +18,7 @@ function Experience() {
       role: "Full Stack Intern",
       url: "https://www.marsamaroc.co.ma",
       start: "01 March 2023",
-      end: "01 Abril 2023",
+      end: "01 April 2023",
       shortDescription: [
         "Built a responsive full stack web application for managing ships, workers and reporting issues using Laravel, Breeze and Tailwind CSS",
         
