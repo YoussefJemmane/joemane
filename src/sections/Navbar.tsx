@@ -123,7 +123,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="http://localhost:3000/Youssef_Jemmane.pdf" />
+            <Button text="Resume" link="/Youssef_Jemmane.pdf" />
           </motion.div>
         </div>
       </div>
