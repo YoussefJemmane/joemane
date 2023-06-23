@@ -23,8 +23,8 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Jemmane Youssef</title>
-        <link rel="shortcut icon" href="./favicon.ico" />
+        <title>Youssef Jemmane</title>
+        <link rel="icon" href="./favicon.ico" />
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Laravel, React, Next.js, Tailwind, Bootstrap, SQL, Python, Full Stack Developer, Youssef Jemmane, JoeMane, Moroccan Developer " />
       </Head>
       {showContent && (

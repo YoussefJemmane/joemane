@@ -7,7 +7,7 @@ function Projects() {
   const projectsData = [
     {
       image: "/project1.png",
-      projectName: "CV Builder",
+      projectName: "CV Builder App",
       projectLink: "",
       projectDescription:
         "A user-friendly web application that simplifies and enhances the resume creation process.",
@@ -23,6 +23,23 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "https://github.com/YoussefJemmane/CV_Builder",
+        externalLink: "",
+      },
+    },
+    {
+      image: "/project2.png",
+      projectName: "Rent Cars App",
+      projectLink: "",
+      projectDescription:
+      "A user-friendly web application that allows you to rent a car and manage your reservations there is also an admin panel to manage the cars and reservations.",
+    
+      projectTech: [
+        "Laravel",
+        "Breeze",
+        "Tailwind",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/YoussefJemmane/Location_voiture",
         externalLink: "",
       },
     },
