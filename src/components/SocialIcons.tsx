@@ -16,7 +16,7 @@ function SocialIcons() {
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/jemmane-youssef-685875212/",
+      link: "https://www.linkedin.com/in/jemmaneyoussef/",
     },
     
     {
