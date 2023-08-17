@@ -24,6 +24,16 @@ function Experience() {
         
       ],
     },
+    {
+    name:"SIB",
+    role:"Full Stack Intern",
+    url:"http://sib.co.ma",
+    start:"02 August 2023",
+    end:"Present",
+    shortDescription:[
+    "Built a web application for managing workers, expenses, billing, check ... using Laravel, Breeze, Alpine.js, Lightbox2",
+]
+}
     
   ];
   return (
