@@ -26,6 +26,13 @@ function Index() {
         <title>Youssef Jemmane</title>
         <link rel="icon" href="./favicon.ico" />
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Laravel, React, Next.js, Tailwind, Bootstrap, SQL, Python, Full Stack Developer, Youssef Jemmane, JoeMane, Moroccan Developer " />
+        <meta
+  name="description"
+  content="Youssef Jemmane - Full Stack Web Developer Portfolio. 
+           Explore my projects and expertise in React, Laravel, Express, Node.js, and more. 
+           Get in touch for new job opportunities and collaborations."
+>
+
       </Head>
       {showContent && (
         <>
