@@ -31,7 +31,7 @@ function Index() {
   content="Youssef Jemmane - Full Stack Web Developer Portfolio. 
            Explore my projects and expertise in React, Laravel, Express, Node.js, and more. 
            Get in touch for new job opportunities and collaborations."
->
+/>
 
       </Head>
       {showContent && (
