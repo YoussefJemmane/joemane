@@ -6,6 +6,22 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 function Projects() {
   const projectsData = [
     {
+      image: "/project3.png",
+      projectName: "Afnane Photography",
+      projectLink: "",
+      projectDescription:
+        "A static website for Afnane Photography, a photography studio specializing in personalized and unique photo sessions.",
+      projectTech: [
+        "Next.js",
+        "TailwindCSS",
+        
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/YoussefJemmane/CV_Builder",
+        externalLink: "https://www.afnanephotography.com/",
+      },
+    },
+    {
       image: "/project1.png",
       projectName: "CV Builder App",
       projectLink: "",

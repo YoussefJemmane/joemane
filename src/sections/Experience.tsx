@@ -13,16 +13,26 @@ function Experience() {
   }, [selected]);
 
   const expereinces = [
-
+    {
+      name:"Ibn Tofail University",
+      role:"Full Stack Intern",
+      url:"https://www.uit.ac.ma/",
+      start:"October 2023",
+      end:"May 2024",
+      shortDescription:[
+      " Developed from scratch a laboratories budget management app. using Laravel, Livewire, Chart.js, Laravel Breeze, OAuth, Spatie, FastExcel, Laravel Buil-in Email notification"
+  ]
+  },
 
 {
-    name:"SIB",
-    role:"Full Stack Intern",
-    url:"http://sib.co.ma",
-    start:"02 August 2023",
-    end:"Present",
+    name:"FeverTokens",
+    role:"Back End Intern",
+    url:"https://www.fevertokens.io/",
+    start:"13 September 2023",
+    end:"13 May 2024",
     shortDescription:[
-    "Built a web application for managing workers, expenses, billing, check ... using Laravel, Breeze, Alpine.js, Lightbox2",
+    "Developed a dynamic calendar component using React.js that allows users to select dates and stores them in a table using Unix timestamps.",
+    "Created the FeverTokens Package-Oriented Transpiler Demo, converting smart contracts into packages using Typescript, Regex and Solidity."
 ]
 },
     {
@@ -36,6 +46,7 @@ function Experience() {
         
       ],
     },
+    
     
     
   ];
