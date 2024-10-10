@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,27 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.14.6",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "@vercel/analytics": "^1.0.1",
-    "eslint": "^7.32.0",
-    "framer-motion": "^10.8.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.8.0",
-    "react-intersection-observer": "^9.4.3",
-    "typescript": "4.9.5"
+    "@svgr/webpack": "^8.1.0",
+    "framer-motion": "^11.11.4",
+    "lucide-react": "^0.451.0",
+    "next": "14.2.14",
+    "portfolio": "file:",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "eslint-config-next": "^12.0.4",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.25.3",
-    "sass": "^1.59.2"
-  },
-  "resolutions": {
-    "semver": "7.5.2"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
